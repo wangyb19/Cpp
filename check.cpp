@@ -8,7 +8,7 @@ int main()
 {
     using namespace std;
     double a;
-    cout << "Please input a no-negative double number: ";
+    cerr << "Please input a no-negative double number: ";
     cin >> a;
     assert(a>=0);
     cout << "The square root of " << a ;
